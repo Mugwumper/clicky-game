@@ -50,7 +50,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <div className="container">
-            <Header />
+            <Header score={this.state.score} highscore={this.state.highscore} />
             <Route exact path="/" render={props => (
               <React.Fragment>
 

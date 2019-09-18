@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+
 class Header extends Component {
   render() {
     const { score, highscore } = this.props;
@@ -37,5 +38,6 @@ const linkStyle = {
   color: "#fff",
   textDecoration: "none"
 };
+
 
 export default Header;
