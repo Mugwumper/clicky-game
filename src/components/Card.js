@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from 'prop-types';
-
 
 export class Card extends Component {
 
@@ -11,16 +9,15 @@ export class Card extends Component {
       <div className="card" 
           onClick={() => this.props.cardClick(id)}  
           style={getStyle_Card}>
-        <div className="img-container" style={getStyle_ImgContainer}>
+        {/* <div className="img-container" style={getStyle_ImgContainer}>
           <img alt={name} src={image} style={getStyle_Img}/>
+        </div> */}
+        <div className="img-container" style={getStyle_ImgContainer}>
+          <img alt={name} src={process.env.PUBLIC_URL + image} style={getStyle_Img}/>
         </div>
       </div>
     );
   }
-}
-// PropTypes // not sure it's needed
-Card.propTypes = {
-  card: PropTypes.object.isRequired
 }
 
 const getStyle_Card = {
@@ -32,15 +29,14 @@ const getStyle_Card = {
   width: "325px",
   boxShadow: "0 3px 6px #999, 0 3px 6px #999",
   textAlign: "left",
-  paddingLeft: "1rem",
-  paddingRight: "1rem",
 }
 
 const getStyle_ImgContainer = {     
   height: "100%",
+  //width: "100%",
   overflow: "hidden",
   textAlign: "center",
-  background: "#999",
+  background: "#333",
 }
 
 const getStyle_Img = {     

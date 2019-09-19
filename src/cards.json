@@ -2,28 +2,75 @@
   {
     "id": 1,
     "name": "1",
-    "image": "public/images/01.png",
+    "image": "/images/01.png",
     "count": 0,
     "used": false
   },
   {
     "id": 2,
     "name": "2",
-    "image": "/public/images/01.png",
+    "image": "/images/02.png",
     "count": 0,
     "used": false
   },
   {
     "id": 3,
     "name": "3",
-    "image": "01.png",
+    "image": "/images/03.png",
     "count": 0,
     "used": false
-  },
-  {
+  },  {
     "id": 4,
     "name": "4",
-    "image": "./src/01.png",
+    "image": "/images/04.png",
+    "count": 0,
+    "used": false
+  },  {
+    "id": 5,
+    "name": "5",
+    "image": "/images/05.png",
+    "count": 0,
+    "used": false
+  },  {
+    "id": 6,
+    "name": "6",
+    "image": "/images/06.png",
+    "count": 0,
+    "used": false
+  },  {
+    "id": 7,
+    "name": "7",
+    "image": "/images/07.png",
+    "count": 0,
+    "used": false
+  },  {
+    "id": 8,
+    "name": "8",
+    "image": "/images/08.png",
+    "count": 0,
+    "used": false
+  },  {
+    "id": 9,
+    "name": "9",
+    "image": "/images/09.png",
+    "count": 0,
+    "used": false
+  },  {
+    "id": 10,
+    "name": "10",
+    "image": "/images/10.png",
+    "count": 0,
+    "used": false
+  },  {
+    "id": 11,
+    "name": "11",
+    "image": "/images/11.png",
+    "count": 0,
+    "used": false
+  },  {
+    "id": 12,
+    "name": "12",
+    "image": "/images/12.png",
     "count": 0,
     "used": false
   }

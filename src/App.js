@@ -23,7 +23,7 @@ class App extends Component {
     this.state.cards.forEach(card => {
       card.used = false;
     });
-    alert(`Game Over :( \nscore: ${this.state.score}`);
+    alert(`Game Over\nyour score: ${this.state.score}`);
     this.setState({score: 0});
     return true;
   }
@@ -51,27 +51,42 @@ class App extends Component {
         <div className="App">
           <div className="container">
             <Header score={this.state.score} highscore={this.state.highscore} />
-            <Route exact path="/" render={props => (
-              <React.Fragment>
-
-                {this.state.cards.map(card => (
-                  <Card
-                    cardClick={this.cardClick}
-                    id={card.id}
-                    key={card.id}
-                    image={card.image}
-                  />
-                ))}
-                
-              </React.Fragment>
-            )} 
+            <Route exact path="/"
+              render={props => (
+                <React.Fragment>
+                  <div className="wrapper" style={getStyle_Wrapper}>
+                    {this.state.cards.map(card => (
+                      <Card
+                        cardClick={this.cardClick}
+                        id={card.id}
+                        key={card.id}
+                        image={card.image}
+                      />
+                    ))}
+                  </div>
+                </React.Fragment>
+              )}
             />
             <Route path="/about" component={About} />
-          </div>   
+          </div>
         </div>
       </Router>
     );
   }
 }
+
+const getStyle_Wrapper = {
+  paddingTop: "50px",
+  background: "#222",
+  height: "100%",
+  display: "flex",
+  flexFlow: "row wrap",
+  padding: "20px",
+  justifyContent: "space-around",
+  alignContent: "flex-start",
+  overflow: "auto",  
+}
+
+
 
 export default App;
