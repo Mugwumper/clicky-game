@@ -77,7 +77,7 @@ class App extends Component {
 
 const getStyle_Wrapper = {
   paddingTop: "50px",
-  background: "#222",
+  background: "#130026",
   height: "100%",
   display: "flex",
   flexFlow: "row wrap",
@@ -86,7 +86,5 @@ const getStyle_Wrapper = {
   alignContent: "flex-start",
   overflow: "auto",  
 }
-
-
 
 export default App;

@@ -28,7 +28,7 @@ const scoreboardStyle = {
 };
 
 const headerStyle = {
-  background: "#333",
+  background: "#0a0014",
   color: "#fff",
   textAlign: "center",
   padding: "10px"

@@ -21,13 +21,13 @@ export class Card extends Component {
 }
 
 const getStyle_Card = {
-  background: "#fff",
+  //background: "#fff",
   borderRadius: "2px",
-  height: "250px",
+  height: "230px",
   margin: "1rem",
   position: "relative",
-  width: "325px",
-  boxShadow: "0 3px 6px #999, 0 3px 6px #999",
+  width: "300px",
+  boxShadow: "0 3px 6px #5200a3, 0 3px 6px #5200a3",
   textAlign: "left",
 }
 
