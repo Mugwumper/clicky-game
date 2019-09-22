@@ -21,7 +21,6 @@ export class Card extends Component {
 }
 
 const getStyle_Card = {
-  //background: "#fff",
   borderRadius: "2px",
   height: "230px",
   margin: "1rem",
@@ -33,7 +32,6 @@ const getStyle_Card = {
 
 const getStyle_ImgContainer = {     
   height: "100%",
-  //width: "100%",
   overflow: "hidden",
   textAlign: "center",
   background: "#333",

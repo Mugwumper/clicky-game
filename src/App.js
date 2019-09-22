@@ -42,6 +42,7 @@ class App extends Component {
           return true;
         }
       }
+      return false; // only because "warning: expecting return value for function..."
     });
   }
 

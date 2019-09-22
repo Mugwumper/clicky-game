@@ -4,7 +4,7 @@ function About() {
     return (
         <React.Fragment>
           <h1>About</h1> 
-          <p>This is the TodoList app v1.1.1</p> 
+          <p>This is the 'clicky-game' app. v1</p> 
         </React.Fragment>
     )
 }
